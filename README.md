@@ -26,7 +26,7 @@ The pipeline runs end-to-end on a small public example dataset in a few minutes 
 microbiome-amplicon-dada2/
 ├── README.md
 ├── .gitignore
-└── dada2_16S_tutorial.R              
+└── dada2_16S_pipeline.R              
 ```
 
 ---
@@ -73,10 +73,10 @@ cd ..
 
 ## Step 3: Configure and run
 
-Edit the CONFIG block at the top of `dada2_16S_tutorial.R` so the paths point at your `MiSeq_SOP/` folder, then:
+Edit the CONFIG block at the top of `dada2_16S_pipeline.R` so the paths point at your `MiSeq_SOP/` folder, then:
 
 ```bash
-Rscript dada2_16S_tutorial.R
+Rscript dada2_16S_pipeline.R
 ```
 
 Results are written to the output folder set in the config (default `MiSeq_SOP/dada2_out/`).
