@@ -1,0 +1,25 @@
+# Never commit sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Reference databases (downloaded, not stored)
+*.fa.gz
+*.fasta.gz
+
+# Example dataset folder & pipeline outputs
+MiSeq_SOP/
+dada2_out/
+filtered/
+*.rds
+*.pdf
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+__MACOSX/
